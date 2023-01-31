@@ -31,6 +31,7 @@
     border-radius: 5px;
     padding: 5px 10px;
     margin: 10px 0 0 0;
+    font-weight: bold;
   }
 
 .body-about{
@@ -51,12 +52,12 @@
   }
   
   .about {
-    background-color: #1c87c9;
+    background-color: #487EA8;
     width: 840px;
-    height: 450px;
+    height: 458px;
     text-align:left;
-    font-size: 24px;
-    padding: 20px 0 0 10px;
+    font-size: 22px;
+    padding: 12px 15px 0 15px;
     border-radius: 5px;
     border: 5px solid white;
     color: white;
