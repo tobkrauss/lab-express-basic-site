@@ -18,6 +18,10 @@ app.get("/works", (req,res) => {
     res.sendFile(__dirname + "/views/works.html")
 })
 
+app.use((req,res) => {
+    res.sendFile(__dirname + "/views/404.html")
+})
+
 
 app.listen(port, () => {
 console.log(`listening on port ${port}`)
